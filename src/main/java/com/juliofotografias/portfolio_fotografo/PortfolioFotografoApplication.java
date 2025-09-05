@@ -1,13 +1,13 @@
-package com.juliofotografias.portifolio_fotografo;
+package com.juliofotografias.portfolio_fotografo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PortifolioFotografoApplication {
+public class PortfolioFotografoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PortifolioFotografoApplication.class, args);
+		SpringApplication.run(PortfolioFotografoApplication.class, args);
 	}
 
 }

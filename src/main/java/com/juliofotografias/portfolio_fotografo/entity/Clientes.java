@@ -1,4 +1,4 @@
-package com.juliofotografias.portifolio_fotografo.entity;
+package com.juliofotografias.portfolio_fotografo.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -19,12 +19,12 @@ import lombok.ToString;
 @Data
 @Builder
 
-public class Portifolio {
+public class Clientes {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String nome;
-    private String descricao;
-    private String link_imagem;
+    private String email;
+    private Integer telefone;
 }
