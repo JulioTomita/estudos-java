@@ -78,7 +78,6 @@ public class PortfolioController {
 
             return new ResponseEntity<>(portfolioAtualizado, HttpStatus.OK);
         }
-
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
