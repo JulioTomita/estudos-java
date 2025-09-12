@@ -19,7 +19,7 @@ import lombok.ToString;
 @Data
 @Builder
 
-public class Clientes {
+public class Cliente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
